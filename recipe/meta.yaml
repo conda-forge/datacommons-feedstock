@@ -1,13 +1,13 @@
 {% set name = "datacommons" %}
-{% set version = "1.4.3" %}
+{% set version = "1.4.4" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4940a6ccdca7e571d5d4e094acab222adb967d83ca93877354b8396924e79d26
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 7f7f84181f6e8933cfd31f29078a06110c4ce9bcfc20340733edf59c5864dace
 
 build:
   noarch: python
